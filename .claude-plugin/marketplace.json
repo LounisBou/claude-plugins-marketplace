@@ -28,7 +28,7 @@
         "repo": "LounisBou/claude-review"
       },
       "description": "Interactive PR review workflow: a pending-review walkthrough item by item, GitHub comment processing, and an autonomous review-fix loop.",
-      "version": "0.3.3",
+      "version": "0.3.6",
       "author": {
         "name": "Lounis Bou"
       }
@@ -40,7 +40,7 @@
         "repo": "LounisBou/claude-github"
       },
       "description": "GitHub API from the standard library: pull requests, review threads, comments, reviews, labels, issues, search and image attachments, without the gh CLI.",
-      "version": "0.2.3",
+      "version": "0.2.5",
       "author": {
         "name": "Lounis Bou"
       }
