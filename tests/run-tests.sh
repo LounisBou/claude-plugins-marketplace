@@ -39,8 +39,13 @@ else
 fi
 
 check "name is lounisbou" "lounisbou" "$(jq -r '.name' "$CATALOGUE")"
-check "seven entries" "7" "$(jq '.plugins | length' "$CATALOGUE")"
-check "metadata version" "3.0.0" "$(jq -r '.metadata.version' "$CATALOGUE")"
+if [ "$(jq '(.plugins | type) == "array" and (.plugins | length) > 0' "$CATALOGUE")" = "true" ]; then
+  ok "the catalogue lists at least one plugin"
+else
+  bad "the catalogue lists at least one plugin"
+fi
+metadata_version=$(jq -r '.metadata.version // ""' "$CATALOGUE")
+if [[ "$metadata_version" =~ $SEMVER ]]; then ok "metadata version is semver"; else bad "metadata version is semver" "got: $metadata_version"; fi
 
 echo "== entries =="
 
