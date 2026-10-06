@@ -76,7 +76,7 @@
         "repo": "LounisBou/claude-orchestrator"
       },
       "description": "Orchestrate implementer sessions: briefs, evidence-based reviews, rotation, succession, tab tooling, context gauge.",
-      "version": "0.47.0",
+      "version": "0.47.1",
       "author": {
         "name": "Lounis Bou"
       }
