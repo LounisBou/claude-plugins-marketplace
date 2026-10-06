@@ -40,7 +40,7 @@
         "repo": "LounisBou/claude-github"
       },
       "description": "GitHub API from the standard library: pull requests, review threads, comments, reviews, labels, issues, search and image attachments, without the gh CLI.",
-      "version": "0.2.5",
+      "version": "0.3.0",
       "author": {
         "name": "Lounis Bou"
       }
@@ -76,7 +76,7 @@
         "repo": "LounisBou/claude-orchestrator"
       },
       "description": "Orchestrate implementer sessions: briefs, evidence-based reviews, rotation, succession, tab tooling, context gauge.",
-      "version": "0.46.3",
+      "version": "0.47.0",
       "author": {
         "name": "Lounis Bou"
       }
