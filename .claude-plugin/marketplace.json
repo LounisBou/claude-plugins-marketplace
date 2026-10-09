@@ -28,7 +28,7 @@
         "repo": "LounisBou/claude-review"
       },
       "description": "Interactive PR review workflow: a pending-review walkthrough item by item, GitHub comment processing, and an autonomous review-fix loop.",
-      "version": "0.3.6",
+      "version": "0.3.7",
       "author": {
         "name": "Lounis Bou"
       }
@@ -52,7 +52,7 @@
         "repo": "LounisBou/claude-norms"
       },
       "description": "Evidence-based code norms: eight review agents, a parallel conformity check, and a learner that turns resolved PR review threads into project rules. Depends on the github plugin.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Lounis Bou"
       }
