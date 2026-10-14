@@ -19,7 +19,7 @@ installed `<plugin>@lounisbou` stays valid.
 
 | Plugin | Description | Source |
 | --- | --- | --- |
-| `claude-statusbar` | Two-line status bar: directory, enriched git, PR, model, session name, context and 5h/7d quotas read natively from the stdin payload. | [LounisBou/claude-statusbar](https://github.com/LounisBou/claude-statusbar) |
+| `statusbar` | Two-line status bar: directory, enriched git, PR, model, session name, context and 5h/7d quotas read natively from the stdin payload. | [LounisBou/claude-statusbar](https://github.com/LounisBou/claude-statusbar) |
 | `pr-review` | Interactive PR review workflow: a pending-review walkthrough item by item, GitHub comment processing, and an autonomous review-fix loop. | [LounisBou/claude-review](https://github.com/LounisBou/claude-review) |
 | `github` | GitHub API from the standard library: pull requests, review threads, comments, reviews, labels, issues, search and image attachments, without the gh CLI. | [LounisBou/claude-github](https://github.com/LounisBou/claude-github) |
 | `norms` | Evidence-based code norms: eight review agents, a parallel conformity check, and a learner that turns resolved PR review threads into project rules. Depends on the github plugin. | [LounisBou/claude-norms](https://github.com/LounisBou/claude-norms) |
