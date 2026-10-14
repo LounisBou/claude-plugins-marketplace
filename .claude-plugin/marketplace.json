@@ -28,7 +28,7 @@
         "repo": "LounisBou/claude-review"
       },
       "description": "Interactive PR review workflow: a pending-review walkthrough item by item, GitHub comment processing, and an autonomous review-fix loop.",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "Lounis Bou"
       }
