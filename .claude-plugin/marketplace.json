@@ -28,7 +28,7 @@
         "repo": "LounisBou/claude-review"
       },
       "description": "Interactive PR review workflow: a pending-review walkthrough item by item, GitHub comment processing, and an autonomous review-fix loop.",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Lounis Bou"
       }
@@ -64,7 +64,7 @@
         "repo": "LounisBou/claude-implement"
       },
       "description": "The feature lifecycle as five commands: brainstorm and plan a feature, run its phases, check a delivery, close the branch, prepare the next one.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Lounis Bou"
       }
