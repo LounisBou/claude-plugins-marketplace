@@ -26,6 +26,7 @@ installed `<plugin>@lounisbou` stays valid.
 | `implement` | The feature lifecycle as five commands: brainstorm and plan a feature, run its phases, check a delivery, close the branch, prepare the next one. | [LounisBou/claude-implement](https://github.com/LounisBou/claude-implement) |
 | `orchestrator` | Orchestrate implementer sessions: briefs, evidence-based reviews, rotation, succession, tab tooling, context gauge. | [LounisBou/claude-orchestrator](https://github.com/LounisBou/claude-orchestrator) |
 | `bugs-bot` | A Telegram or Slack bug-report relay for the host: one bot, one group or channel and one agent per project. | [LounisBou/claude-bugs-bot](https://github.com/LounisBou/claude-bugs-bot) |
+| `cloudflare` | Cloudflare and the local Caddy from a native Claude Code tool: accounts by name, DNS, protections, cache, Workers and Caddy site blocks, with a backup before every write and publish in one command, facading a Python stdlib engine. | [LounisBou/claude-cloudflare](https://github.com/LounisBou/claude-cloudflare) |
 
 ## Releasing a plugin
 
